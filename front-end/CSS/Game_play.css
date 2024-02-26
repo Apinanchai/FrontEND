@@ -1,0 +1,31 @@
+:root {
+  --orange-color: #ff6b35;
+  --lightorange-color: #f7c59f;
+  --lightlight-color: #efefd0;
+  --blue-color: #004e89;
+  --black-color: #000000;
+  --red-color: #ff0101;
+  --gray-color: #8c8c8c;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.button {
+  list-style-type: none;
+}
+
+/* .btn {
+  text-decoration: none;
+} */
+
+.btn.BACK {
+  position: fixed;
+  top: 1vw; /* ขยับไปทางบนอีก 5% ของความกว้างของหน้าจอ */
+  left: 1vw; /* ขยับไปทางซ้ายอีก 5% ของความกว้างของหน้าจอ */
+  width: 1vw; /* กำหนดความกว้างของปุ่มเป็น 10% ของความกว้างของหน้าจอ */
+  height: 1vw; /* กำหนดความสูงของปุ่มเป็น 10% ของความกว้างของหน้าจอ */
+}

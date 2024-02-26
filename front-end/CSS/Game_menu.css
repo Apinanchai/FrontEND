@@ -1,0 +1,70 @@
+:root {
+  --orange-color: #ff6b35;
+  --lightorange-color: #f7c59f;
+  --lightlight-color: #efefd0;
+  --blue-color: #004e89;
+  --black-color: #000000;
+  --red-color: #ff0101;
+  --gray-color: #8c8c8c;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* BUTTON */
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.topper {
+  max-width: 590px;
+  margin: 0 auto;
+  color: #000;
+}
+
+.button.list {
+  background: #000000c0;
+  padding: 30px 20px;
+  border-radius: 40px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.btn {
+  padding: 40px 50px;
+  border-radius: 20px;
+  color: #000;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  max-width: 400px;
+  width: 100%;
+  margin: 5px;
+}
+
+.btn.MODE {
+  background: var(--lightorange-color);
+}
+
+.btn.SETTING {
+  background: var(--blue-color);
+}
+
+.btn.EXIT {
+  background: var(--red-color);
+}
+
+/* Header */
+
+header {
+  padding-top: 280px;
+  background-image: url(/Images/BACKGROUND.png);
+  height: 100vh;
+  width: 100%;
+}
